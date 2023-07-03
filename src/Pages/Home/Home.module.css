@@ -1,0 +1,36 @@
+.home-page {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 66px;
+}
+
+.home-page__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.home-page__settings h2 {
+    text-align: center;
+}
+
+.home-page__img {
+    width: 50%;
+    display: flex;
+}
+
+.home-page__img img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 820px) {
+    .home-page{
+        flex-direction: column-reverse;
+        padding: 30px;
+        margin-top: 10px;
+    }
+    .home-page__img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

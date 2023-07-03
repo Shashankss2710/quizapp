@@ -1,0 +1,8 @@
+.result{
+    width: 60%;
+    margin: 10% auto;
+    text-align: center;
+}
+.result__message h3, p{
+    margin-top: 20px;
+}

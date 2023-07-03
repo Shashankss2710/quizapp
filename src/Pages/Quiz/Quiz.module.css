@@ -1,0 +1,26 @@
+.quiz {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 80%;
+    padding: 20px;
+    margin: 30px auto;
+}
+
+.quiz h2 {
+    text-align: center;
+}
+
+.quiz__details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+@media only screen and (max-width: 820px){
+    .quiz__details{
+        font-size: 18px;
+    }
+    /* .progress{
+        margin: ;
+    } */
+}
